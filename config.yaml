@@ -386,4 +386,9 @@ signatures:
   - part:  'contents'
     regex: 'PW[A-Z0-9a-z]{51}\b'
     name: 'EOS WALLET PASSWORD'
+  - part:  'contents'
+    regex: 'EOS[1-9A-HJ-NP-Za-km-z]{50}'
+    name: 'EOS KEY'
+    
+    
 
