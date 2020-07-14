@@ -380,3 +380,10 @@ signatures:
   - part:  'contents'
     regex: 'hawk\.[0-9A-Za-z\-_]{20}\.[0-9A-Za-z\-_]{20}'
     name: 'StackHawk API Key'
+  - part:  'contents'
+    regex: '5[A-Z0-9a-z]{50}\b'
+    name: 'EOS KEY'
+  - part:  'contents'
+    regex: 'PW[A-Z0-9a-z]{51}\b'
+    name: 'EOS WALLET PASSWORD'
+
